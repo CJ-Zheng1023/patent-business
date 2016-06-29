@@ -1,11 +1,72 @@
 @charset "UTF-8";
 /**田会飞**/
 .in-bl{display:inline-block;}
-
+.breadcrumb{background-color: transparent;}
 /** 标题 **/
-.title{text-align: center}
+.title{text-align: center;margin-bottom:40px;}
 .title h1{font-size:30px;font-weight:bolder ;color:#00a0e9;}
 .title small{font-size:18px;color:#222;}
+
+/**宫格 开始**/
+.grid > div{padding:0;}
+.grid .b-box{height:100%;padding:5px;border-left:1px solid #EEE;border-top:1px solid #EEE;border-right:1px solid #EEE;border-bottom:1px solid #EEE;}
+.grid .see-box{margin-top:30px;}
+.grid .b-box .see{display:block;width:40px;height:40px;margin-right:10px;border:2px solid #1b94e3;border-radius: 23px;color:#1b94e3;}
+.grid .b-box .see i{display:inline-block;width:39px;height:36px;font-size:35px;text-align: center;vertical-align: middle;}
+.grid .grid-box:last-child .b-box{border-right:1px solid #EEE;}
+/*.grid:last-child .grid-box .b-box{border-bottom:1px solid #EEE;}*/
+
+.transition-color{
+    -webkit-transition: color  1s ease;
+    -moz-transition: color  1s ease;
+    -ms-transition: color  1s ease;
+    -o-transition: color  1s ease;
+    transition: color  1s ease;
+}
+.transition-bgcolor{
+    -webkit-transition: background-color  1s ease;
+    -moz-transition: background-color  1s ease;
+    -ms-transition: background-color  1s ease;
+    -o-transition: background-color  1s ease;
+    transition: background-color  1s ease;
+}
+.grid .grid-box:hover{
+    background-color: #1b94e3;
+}
+.grid .grid-box:hover .b-box {}
+.grid .grid-box:hover .b-box p,.grid .grid-box:hover .b-box h3{color:#FFF;}
+.grid .grid-box:hover .b-box .g-icon-q,.grid .grid-box:hover  .b-box .g-icon-a{background-color: #FFF;}
+.grid .grid-box:hover .b-box .g-icon-q,.grid .grid-box:hover .b-box .g-icon-a{color:#1b94e3;}
+.grid .grid-box:hover .b-box .see {border-color: #FFF;color:#1b94e3;background-color: #FFF;}
+
+.grid .b-box{text-align: left;}
+.grid .b-box h3,.grid .b-box p{padding-left:39px;position:relative;color:#676767;}
+.grid .b-box .g-icon-q,.grid .b-box .g-icon-a{position:absolute;left:10px;top:0;display:block;color:#FFF;border-radius: 19px;background-color: #1b94e3;text-align: center;}
+.grid .b-box .g-icon-q::after{font-size: 17px;content: "Q";display:block;width:25px;height:25px;line-height: 25px;}
+.grid .b-box .g-icon-a::after{font-size: 17px;content: "A";display:block;width:25px;height:25px;line-height: 25px;}
+.grid .b-box h3{font-size: 22px;font-weight: bolder;margin-bottom:32px;}
+.grid .b-box p{font-size: 18px;}
+.grid .g-icon{}
+
+/**宽度最小为992时**/
+@media (min-width: 992px) {
+
+    .grid > div{padding:0;}
+    .grid .b-box{height:100%;border-left:1px solid #EEE;border-top:1px solid #EEE;border-right:0;}
+    .grid .grid-box:last-child .b-box{border-right:1px solid #EEE;}
+    /*.grid:nth-child(2) .b-box{border-bottom:1px solid #EEE;}*/
+}
+/**平板 768-992 **/
+@media screen and (min-width: 768px) and (max-width:992px) {
+    .grid{}
+    .grid > div{padding:0;}
+    .grid .b-box{height:100%;border-left:1px solid #EEE;border-top:1px solid #EEE;border-right:0;}
+
+    .grid .grid-box:nth-child(even) .b-box{border-right:1px solid #EEE;}
+    /*.grid:last-child .grid-box:nth-child(3) .b-box{border-bottom:1px solid #EEE;}*/
+}
+/**宫格 结束**/
+
 /**田会飞end**/
 
 
