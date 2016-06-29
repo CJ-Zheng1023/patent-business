@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /**田会飞**/
 .in-bl{display:inline-block;}
-.breadcrumb{background-color: transparent;}
+.breadcrumb{margin-top:20px;margin-bottom:0;background-color: transparent;}
 /** 标题 **/
 .title{text-align: center;margin-bottom:40px;}
 .title h1{font-size:30px;font-weight:bolder ;color:#00a0e9;}
