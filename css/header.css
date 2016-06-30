@@ -3,6 +3,160 @@
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 0;
+    padding-top: 0;
+}
+.header .jumbotron .navbar-home{
+    padding: 0 20px;
+}
+.header .jumbotron .navbar-home .navbar-logo-wrapper{
+    padding-top: 23px;
+    margin-left: 40px;
+    float: left;
+}
+@media (max-width: 1260px) {
+    .header .jumbotron .navbar-home .navbar-logo-wrapper{
+        display: none;
+    }
+    .header .jumbotron .navbar-home .nav-home.nav-home-responsive{
+        float: none;
+        max-width: 1000px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+}
+.header .navbar-home .navbar-logo-md{
+    padding-left: 40px;
+    background: url("../images/logo-md.png") no-repeat 0 0;
+}
+.header .navbar-home .navbar-logo-sm{
+    padding-left: 30px;
+    background: url("../images/logo-sm.png") no-repeat 0 0;
+}
+.header .navbar-home .navbar-logo>h2{
+    font-size: 26.74px;
+    font-weight: bold;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+}
+.header .navbar-home .navbar-logo-sm>h2{
+    font-size: 22.33px;
+}
+.header .navbar-home .navbar-logo>h3{
+    font-size: 12px;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+}
+.header .navbar-home .navbar-logo-sm>h3{
+    font-size: 12px;
+}
+.header .jumbotron .navbar-home .nav-home{
+    float: right;
+}
+.header .navbar-home .nav-home .nav-btn-home{
+    display: none;
+    background-color: transparent;
+    padding: 9px 10px;
+    margin-top: 28px;
+}
+@media (max-width: 850px) {
+    .header .navbar-home .nav-home .nav-btn-home.collapse-home{
+        float: left;
+        display: block;
+    }
+    .header .navbar-home .nav-home ul.collapse-menu-home{
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        background-color: #fff;
+        width: 100%;
+    }
+    .header .navbar-home .nav-home ul.collapse-menu-home.active{
+        display: block;
+    }
+    .header .navbar-home.navbar-home-responsive .nav-home ul.collapse-menu-home li>a.list-item>h3{
+        color: rgb(157, 157, 157);
+    }
+    .header .navbar-home.navbar-home-responsive .nav-home ul.collapse-menu-home li>a.list-item:hover>h3{
+        color: #000;
+    }
+    .header .navbar-home.navbar-home-responsive .nav-home ul.collapse-menu-home li>a.list-item>h4{
+        color: rgb(157, 157, 157);
+    }
+    .header .navbar-home.navbar-home-responsive .nav-home ul.collapse-menu-home li>a.list-item:hover>h4{
+        color: #000;
+    }
+    .header .navbar-home.navbar-home-responsive .nav-home ul.collapse-menu-home li{
+        float: none;
+    }
+    .header .navbar-home.navbar-home-responsive .nav-home ul.collapse-menu-home li>a.list-item{
+        padding: 10px 15px;
+        display: block;
+    }
+    .header .jumbotron .navbar-home.navbar-home-responsive{
+        position: relative;
+    }
+}
+/*.header .navbar-home .nav-home .nav-btn-home:hover{
+    opacity: 0.5;
+}*/
+.header .navbar-home .nav-home .nav-btn-home .icon-bar-home{
+    display: block;
+    height: 2px;
+    border-radius: 1px;
+    width: 22px;
+    background-color: #fff;
+}
+.header .navbar-home .nav-home .nav-btn-home .icon-bar-home+.icon-bar-home{
+    margin-top: 4px;
+}
+.header .navbar-home .nav-home ul{
+    list-style: none;
+    margin: 0;
+    float: left;
+    padding: 0;
+}
+.header .navbar-home .nav-home ul>li{
+    float: left;
+    margin: 0;
+}
+.header .navbar-home .nav-home ul>li a.list-item{
+    display: inline-block;
+    padding: 30px 13px 0 13px;
+    text-align: center;
+    position: relative;
+}
+.header .navbar-home .nav-home ul>li a.list-item>h3{
+    margin: 0;
+    font-size: 12.32px;
+    color: #fff;
+    margin-bottom: 3px;
+}
+.header .navbar-home .nav-home ul>li a.list-item>h4{
+    margin: 0;
+    font-size: 12.32px;
+    color: #fff;
+}
+.header .navbar-home .nav-home ul>li a.list-item>i{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 6px;
+    width: 100%;
+    background-color: transparent;
+}
+.header .navbar-home .nav-home ul>li .active.list-item>i{
+    background-color: #fff;
+}
+.header .navbar-home .nav-home ul>li a.list-item:hover>i{
+    background-color: #fff;
+}
+.header .jumbotron .navbar-home .qrcode{
+    float: right;
+    padding: 25px 15px 0 15px;
+    cursor: pointer;
 }
 .header .jumbotron .title-box{
     max-width: 750px;
