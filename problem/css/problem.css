@@ -1,3 +1,6 @@
 @charset "UTF-8";
-.detail-box{padding:5px;border:1px solid #d2d2d2;}
+.detail-box{max-width: 1000px;margin:0 auto;margin-bottom:118px;padding:55px 76px;min-height:425px;border:1px solid #d2d2d2;}
+@media screen and (max-width: 768px){
+    .detail-box{padding:55px 5px;}
+}
 
