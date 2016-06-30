@@ -75,7 +75,7 @@ li{list-style-type: none;}
 
 
 /**郑成杰**/
-a, a:hover {	text-decoration: none;}
+a, a:hover {outline: none;text-decoration: none;}
 a:focus{outline: none;text-decoration: none;}
 
 /**郑成杰end**/
