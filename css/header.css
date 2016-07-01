@@ -25,33 +25,6 @@
         overflow: hidden;
     }
 }
-.header .navbar-home .navbar-logo-md{
-    padding-left: 40px;
-    background: url("../images/logo-md.png") no-repeat 0 0;
-}
-.header .navbar-home .navbar-logo-sm{
-    padding-left: 30px;
-    background: url("../images/logo-sm.png") no-repeat 0 0;
-}
-.header .navbar-home .navbar-logo>h2{
-    font-size: 26.74px;
-    font-weight: bold;
-    color: #fff;
-    margin: 0;
-    text-align: center;
-}
-.header .navbar-home .navbar-logo-sm>h2{
-    font-size: 22.33px;
-}
-.header .navbar-home .navbar-logo>h3{
-    font-size: 12px;
-    color: #fff;
-    margin: 0;
-    text-align: center;
-}
-.header .navbar-home .navbar-logo-sm>h3{
-    font-size: 12px;
-}
 .header .jumbotron .navbar-home .nav-home{
     float: right;
     height: 150px;
