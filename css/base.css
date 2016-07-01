@@ -287,9 +287,11 @@ a:focus{outline: none;text-decoration: none;}
     transform: rotate(180deg);
 }
 .header .navbar-home .qrcode .qrcode-img{
-    text-align: center;
-    margin: 7px 0;
+    margin: 7px auto;
     display: none;
+    background-image: url("../images/qrcode.png");
+    width: 74px;
+    height: 74px;
 }
 .header .navbar-home .qrcode.active .qrcode-img{
     display: block;
