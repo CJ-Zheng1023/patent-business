@@ -1,6 +1,7 @@
 .personal-menu ul{
     margin: 0;
     list-style: none;
+    padding: 0;
 }
 .personal-menu ul li{
     margin: 0 0 10px 0;
@@ -43,6 +44,7 @@
     font-size: 50px;
     min-width: 50px;
     display: inline-block;
+    line-height: 1;
 }
 .personal-menu .menu-item .menu-item-title h2{
     font-size: 24.47px;
@@ -53,4 +55,8 @@
     font-size: 12.24px;
     color: rgb(100,100,100);
     margin: 0;
+}
+.menu-content{
+    background-color: #fff;
+    min-height: 700px;
 }
