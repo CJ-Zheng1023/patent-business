@@ -1,0 +1,14 @@
+@charset "UTF-8";
+.circle-left{position:relative;padding-left:33px;}
+.circle-left span{
+    position:absolute;left:3px;top:50%;
+    display:block;width:15px;height:15px;
+    background-color: #1b94e3;
+    border-radius: 10px;
+    -webkit-transform:  translate(0,-50%);
+    -moz-transform: translate(0,-50%) ;
+    -ms-transform:  translate(0,-50%);
+    -o-transform: translate(0,-50%) ;
+    transform: translate(0,-50%) ;
+}
+.circle-p{padding-left:33px;}
