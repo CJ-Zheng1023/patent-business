@@ -1,0 +1,15 @@
+.main-personal .menu-content .detail-form{
+    padding-top: 35px;
+    padding-bottom: 70px;
+}
+.menu-content .detail-form .form-group{
+    margin-bottom: 35px;
+}
+.menu-content .detail-form .form-group label{
+    color: #2289c4;
+    font-size: 20px;
+}
+.menu-content .detail-form .form-group>input{
+    height: 45px;
+    line-height: 45px;
+}
