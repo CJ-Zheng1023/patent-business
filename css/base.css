@@ -67,11 +67,22 @@ li{list-style-type: none;}
     /*.grid:last-child .grid-box:nth-child(3) .b-box{border-bottom:1px solid #EEE;}*/
 }
 /**宫格 结束**/
-
+p.keyword{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
+    padding-top: 60px;
+}
+p.keyword i.dot{
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #fff;
+    border-radius: 50%;
+    margin: 0 23px 3px 23px;
+}
 /**田会飞end**/
-
-
-
 
 
 /**郑成杰**/
@@ -318,7 +329,7 @@ a:focus{outline: none;text-decoration: none;}
     margin-top: 0;
     font-size: 18.43px;
 }
-.header .jumbotron p.keyword{
+/*.header .jumbotron p.keyword{
     text-align: center;
     color: #fff;
     font-weight: bold;
@@ -332,7 +343,7 @@ a:focus{outline: none;text-decoration: none;}
     background-color: #fff;
     border-radius: 50%;
     margin: 0 23px 3px 23px;
-}
+}*/
 @media (max-width: 600px){
     .header .jumbotron .title-box h1 span.special{
         background-color: transparent;
@@ -362,11 +373,11 @@ a:focus{outline: none;text-decoration: none;}
 /**阿里图标字体库引入**/
 @font-face {
     font-family: 'iconfont';
-    src: url('//at.alicdn.com/t/font_1467363792_3435922.eot'); /* IE9*/
-    src: url('//at.alicdn.com/t/font_1467363792_3435922.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('//at.alicdn.com/t/font_1467363792_3435922.woff') format('woff'), /* chrome、firefox */
-    url('//at.alicdn.com/t/font_1467363792_3435922.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-    url('//at.alicdn.com/t/font_1467363792_3435922.svg#iconfont') format('svg'); /* iOS 4.1- */
+    src: url('//at.alicdn.com/t/font_1467605002_1158247.eot'); /* IE9*/
+    src: url('//at.alicdn.com/t/font_1467605002_1158247.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('//at.alicdn.com/t/font_1467605002_1158247.woff') format('woff'), /* chrome、firefox */
+    url('//at.alicdn.com/t/font_1467605002_1158247.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('//at.alicdn.com/t/font_1467605002_1158247.svg#iconfont') format('svg'); /* iOS 4.1- */
 }
 .iconfont {
     font-family:"iconfont" !important;
@@ -380,6 +391,7 @@ a:focus{outline: none;text-decoration: none;}
 .icon-shape5:before { content: "\e601"; }
 .icon-yixuanzhongpaimaichui:before { content: "\e600"; }
 .icon-guanli:before { content: "\e603"; }
+.icon-kefurexian:before{content:"\e604"}
 /**阿里图标字体库引入end**/
 
 
