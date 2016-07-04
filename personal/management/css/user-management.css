@@ -1,0 +1,31 @@
+.main-personal .menu-content .management-form{
+    padding-top: 50px;
+    padding-bottom: 170px;
+}
+.menu-content .management-form .form-group label{
+    color: #2289c4;
+    font-size: 20px;
+}
+.menu-content .management-form form{
+    max-width: 445px;
+    margin: 0 auto;
+}
+.menu-content .management-form .form-group input[type='password']{
+    height: 55px;
+    line-height: 55px;
+}
+.menu-content .management-form .form-group>p{
+    color: #a4a4a4;
+    font-size: 16px;
+    margin: 10px 0 0 20px;
+}
+.menu-content .management-form .btn-area{
+    text-align: center;
+    padding-top: 40px;
+}
+.menu-content .management-form .btn-area .btn-submit{
+    background-color: rgb(16,148,246);
+    color: #fff;
+    font-size: 22px;
+    width: 120px;
+}

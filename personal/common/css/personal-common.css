@@ -1,3 +1,10 @@
+.main.main-personal{
+    padding: 30px 0;
+    background-color: rgb(245,245,245);
+}
+.main-personal .menu-content{
+    padding: 0 15px;
+}
 .personal-menu ul{
     margin: 0;
     list-style: none;

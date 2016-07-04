@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../../css/font-awesome.css" type="text/css"/>
     <link rel="stylesheet" href="../../css/base.css" type="text/css"/>
     <link rel="stylesheet" href="../common/css/personal-common.css" type="text/css"/>
-    <link rel="stylesheet" href="css/personal-data.css" type="text/css"/>
+    <link rel="stylesheet" href="css/user-management.css" type="text/css"/>
     <!--[if lt IE 9]>
     <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
@@ -122,7 +122,7 @@
                 <div class="personal-menu">
                     <ul>
                         <li>
-                            <a class="menu-item active" href="javascript:;">
+                            <a class="menu-item" href="javascript:;">
                                 <i class="fa fa-user personal-icon"></i>
                                 <div class="menu-item-title">
                                     <h2>个人资料</h2>
@@ -158,7 +158,7 @@
                             </a>
                         </li>
                         <li>
-                            <a class="menu-item" href="javascript:;">
+                            <a class="menu-item  active" href="javascript:;">
                                 <i class="iconfont icon-guanli personal-icon"></i>
                                 <div class="menu-item-title">
                                     <h2>用户管理</h2>
@@ -171,70 +171,27 @@
             </div>
             <div class="col-md-8 col-sm-12">
                 <div class="menu-content">
-                    <div class="row user-information user-information-responsive">
-                        <div class="col-sm-2 col-xs-12">
-                            <div class="head-photo-area">
-                                <img src="images/phtoto.png" class="img-responsive" />
-                            </div>
-                        </div>
-                        <div class="col-sm-5 col-xs-12">
-                            <h4>张三</h4>
-                            <p>
-                                <span>身份证号码：</span>
-                                <span>222208********3421</span>
-                            </p>
-                            <p>
-                                <a href="javascript;:" class="btn-update">修改个人信息<span class="caret"></span></a>
-                            </p>
-                        </div>
-                        <div class="col-sm-5 col-xs-12">
-                            <p>
-                                <span>手机号：</span><span>18888888888</span>
-                            </p>
-                            <p>
-                                <span>座机号：</span><span>021-7891234</span>
-                            </p>
-                            <p>
-                                <span>E-mail：</span><span>12345678@qq.com</span>
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row operation-list operation-list-responsive">
-                        <div class="col-sm-6 col-xs-12">
-                            <div class="operation-item">
-                                <p><span>我的登记：</span><span>3</span></p>
-                                <p><a href="javascript:;">查看登记内容&gt;</a></p>
-                                <i class="icon1">
-                                    <span class="fa fa-pencil"></span>
-                                </i>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-xs-12">
-                            <div class="operation-item">
-                                <p><span>我的投诉：</span><span>0</span></p>
-                                <p><a href="javascript:;">查看投诉内容&gt;</a></p>
-                                <i class="icon2">
-                                    <span class="iconfont icon-yixuanzhongpaimaichui"></span>
-                                </i>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-xs-12">
-                            <div class="operation-item">
-                                <p><span>我的申诉：</span><span>0</span></p>
-                                <p><a href="javascript:;">查看申诉内容&gt;</a></p>
-                                <i class="icon3">
-                                    <span class="fa fa-hand-stop-o"></span>
-                                </i>
-                            </div>
-                        </div>
-                        <div class="col-sm-6 col-xs-12">
-                            <div class="operation-item">
-                                <p><span>账户管理：</span></p>
-                                <p><a href="javascript:;">点击修改密码&gt;</a></p>
-                                <i class="icon4">
-                                    <span class="iconfont icon-guanli"></span>
-                                </i>
-                            </div>
+                    <div class="row management-form management-form-responsive">
+                        <div class="col-sm-12 col-xs-12">
+                            <form>
+                                <div class="form-group">
+                                    <label for="current_password">当前密码</label>
+                                    <input type="password" class="form-control" id="current_password" value="123">
+                                </div>
+                                <div class="form-group">
+                                    <label for="new_password">新密码</label>
+                                    <input type="password" class="form-control" id="new_password">
+                                    <p>密码由6-16个字符组成，区分大小写</p>
+                                </div>
+                                <div class="form-group">
+                                    <label for="confirm_password">确认新密码</label>
+                                    <input type="password" class="form-control" id="confirm_password">
+                                    <p>密码由6-16个字符组成，区分大小写</p>
+                                </div>
+                                <div class="btn-area">
+                                    <a class="btn btn-default btn-submit" href="javascript:;" role="button">确 定</a>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
