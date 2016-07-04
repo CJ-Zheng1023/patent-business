@@ -2,3 +2,117 @@
     padding: 30px 0;
     background-color: rgb(245,245,245);
 }
+.main-personal .menu-content{
+    padding: 0 15px;
+}
+.menu-content .user-information{
+    padding-top: 50px;
+}
+.menu-content .user-information .head-photo-area{
+    margin-left: 10%;
+    margin-bottom: 15px;
+    border-radius: 50%;
+}
+.menu-content .user-information h4{
+    font-size: 24px;
+    color: #565656;
+    margin: 0 0 15px 0;
+    font-weight: bold;
+}
+.menu-content .user-information p{
+    font-size: 14px;
+    margin: 0 0 15px 0;
+    color: #565656;
+}
+.menu-content .user-information p .btn-update{
+    color: #ffb74d;
+}
+
+.menu-content .operation-list{
+    padding-top: 110px;
+    text-align: center;
+}
+.menu-content .operation-list .operation-item{
+    padding-left: 100px;
+    height: 90px;
+    position: relative;
+    margin-bottom: 80px;
+    display: inline-block;
+}
+.menu-content .operation-list .operation-item>i{
+    position: absolute;
+    left: 0;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    top: 0;
+    color: #fff;
+}
+.menu-content .operation-list .operation-item>i>span{
+    margin-top: 20px;
+    font-size: 50px;
+    display: inline-block;
+    line-height: 1;
+}
+.menu-content .operation-list .operation-item>i.icon1{
+    background-color: rgb(255,103,9);
+}
+.menu-content .operation-list .operation-item>i.icon2{
+    background-color: rgb(139,195,74);
+}
+.menu-content .operation-list .operation-item>i.icon3{
+    background-color: rgb(33,150,243);
+}
+.menu-content .operation-list .operation-item>i.icon4{
+    background-color: rgb(255,171,0);
+}
+.menu-content .operation-list .operation-item>p{
+    font-size: 24px;
+    color: #363636;
+}
+.menu-content .operation-list .operation-item>p>a{
+    font-size: 16px;
+    color: #7c7c7c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .menu-content .user-information.user-information-responsive .head-photo-area{
+        margin: 0 auto 15px auto;
+        width: 24%;
+    }
+    .menu-content .user-information.user-information-responsive{
+        text-align: center;
+    }
+    .menu-content .operation-list.operation-list-responsive{
+        padding-top: 50px;
+    }
+    .menu-content .operation-list.operation-list-responsive .operation-item{
+        margin: 0 0 50px 0;
+
+    }
+}
