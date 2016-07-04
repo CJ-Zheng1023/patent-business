@@ -92,6 +92,7 @@
     line-height: 66px;
     color: #fff;
     z-index: 2;
+    cursor: pointer;
 }
 .menu-content .status-bar>.bar-part{
     position: absolute;
@@ -100,9 +101,6 @@
     height: 100%;
     top: 0;
     z-index: 1;
-}
-.menu-content .status-bar>.bar-part.active{
-    background-color: rgb(16,148,246);
 }
 .menu-content .status-bar>.bar-part1{
     left: 0;
@@ -126,4 +124,10 @@
 }
 .menu-content .status-bar>.status-item3{
     right: 0;
+}
+.menu-content .status-bar>.status-item1.active+.bar-part{
+    background-color: rgb(16,148,246);
+}
+.menu-content .status-bar>.status-item2.active+.bar-part{
+    background-color: rgb(16,148,246);
 }

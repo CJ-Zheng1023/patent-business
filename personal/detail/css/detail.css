@@ -13,3 +13,30 @@
     height: 45px;
     line-height: 45px;
 }
+.menu-content .detail-form .status-content{
+    padding: 60px 10px 0 10px;
+}
+.menu-content .detail-form .status-content .message-box{
+    background-color: rgb(245,245,245);
+    padding: 45px 40px;
+    font-size: 18px;
+    color: #4e4e4e;
+    min-height: 160px;
+    border-radius: 4px;
+}
+.menu-content .status-bar .status-item .arrow{
+    position: absolute;
+    border-bottom: 12px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 12px solid transparent;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    bottom: -33px;
+}
+.menu-content .status-bar .status-item .arrow.active{
+    border-bottom-color: rgb(245,245,245);
+}
