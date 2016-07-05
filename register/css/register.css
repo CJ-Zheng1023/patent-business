@@ -11,5 +11,6 @@
 
 .register-submit{margin:10px 0;}
 .register-hint{color:#686868;font-size: 18px;margin-top:65px;}
-.register-hint-list{padding-left:0;color:#686868;font-size: 16px;}
+.register-hint-list{padding-left:0;margin-top:24px;color:#686868;font-size: 16px;}
 .register-hint-list li{margin:7px 0;}
+.register .register-login{margin-top:60px;color:#1b94e3;font-size:18px;font-weight: bolder;}
