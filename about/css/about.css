@@ -20,7 +20,7 @@ p.keyword i.dot{
 .title h1 {margin-top:0;}
 .title h1,.title small {color:#47b04b;}*/
 .about-title{margin-bottom:53px;}
-.about-logo .logo.logo-md{float:right;width:50%;padding-left:71px;background:url("../images/about.png") no-repeat 0 0;}
+.about-logo .logo.logo-md{float:right;width:50%;padding-left:71px;background:url("../../images/about.png") no-repeat 0 0;}
 .about-logo .logo>h3{color:#47b04b;font-size:21px;}
 .about-logo .logo>h2{color:#47b04b;font-size:58px;}
 

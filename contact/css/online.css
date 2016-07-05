@@ -1,0 +1,24 @@
+@charset "UTF-8";
+.online-bg{background: url("../images/online.png") no-repeat center center;}
+.online-title{width:255px;margin:0 auto;padding-top:50px;margin-bottom:37px;}
+.online-title .logo.logo-md{padding-left:71px;background:url("../../images/about.png") no-repeat left center;}
+.line h2{color:#18df59;font-size: 48px;}
+.line h3{color:#18df59;font-size:18px;}
+
+.hot-line{
+    padding: 34px 0;
+background-image: -webkit-linear-gradient(0deg,rgba(210,211,211,.6),rgba(243,247,250,.0));
+background-image: -moz-linear-gradient(0deg,rgba(210,211,211,.6),rgba(243,247,250,.0));
+background-image: -o-linear-gradient(0deg,rgba(210,211,211,.6),rgba(243,247,250,.0));
+background-image: -ms-linear-gradient(0deg,rgba(210,211,211,.6),rgba(243,247,250,.0));
+background-image: linear-gradient(to right,rgba(210,211,211,.6),rgba(243,247,250,.0));
+    margin-bottom:26px;
+}
+.hot-line .logo.logo-md{background: none;}
+.hot-line h2 {color:#000;font-size: 32px;}
+.hot-line h3 {color:#000;font-size: 51px;}
+
+.line-box{width:172px;height:172px;padding:5px;margin: 0 auto;}
+
+p.keyword{padding-top:33px;margin-bottom:60px;color:#2e2e2e;}
+p.keyword i.dot{background-color:#2e2e2e;}

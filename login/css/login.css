@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+.login-bg{max-height:663px;max-width:900px;}
+.login-bg img{width:100%;height:100%;}
+
+.panel h3{padding-bottom:22px;border-bottom:3px solid #dcdcdc;color:#ffb74d;font-size: 25px;}
+.login-from{padding:20px 30px;}
+.login-from .input-group{margin-top:40px;}
+.login-from .login-submit{margin-top:91px;}
+
+.forget{text-align: right;}
+.forget a{color:#535253;font-size: 19px;}
+
+.loign-register{margin-top:30px;font-size: 19px;color:#535253;}
+.loign-register a{color:#ffb74d;}
+
+@media screen and (max-width: 992px) {
+    .login-hidden{display:none;}
+}
+
