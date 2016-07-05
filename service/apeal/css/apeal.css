@@ -1,0 +1,18 @@
+.add-apeal .control-label{
+    color: #2289c4;
+    font-size: 16px;
+}
+.add-apeal .alert-info{
+    background-color: rgb(251,242,237);
+    border-color: rgb(250,210,188);
+    margin-bottom: 50px;
+}
+.add-apeal .alert-info strong{
+    font-size: 20px;
+    color: rgb(18, 133, 196);
+    margin-right: 20px;
+}
+.add-apeal .alert-info span{
+    font-size: 18px;
+    color: #737272;
+}
