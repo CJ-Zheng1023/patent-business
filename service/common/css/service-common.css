@@ -7,12 +7,27 @@
 
 
 .form-group .input-box{
-    padding: 10px 10px 15px 10px;
+    padding: 10px 30px 15px 10px;
     background-color: rgb(251,251,251);
 
 }
 .form-group .input-box .input-area{
     position: relative;
+}
+.btn-close{
+    position: absolute;
+    right: -22px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    border: 1px solid rgb(235,72,55);
+    top: 50%;
+    margin-top: -8px;
+    color: rgb(235,72,55);
+    font-size: 12px;
+    line-height: 1;
+    text-align: center;
+    cursor: pointer;
 }
 .form-group .input-box .input-area input[type='text']{
     padding-right: 85px;

@@ -3,3 +3,22 @@
 .identity-front,.identity-reverse{}
 
 .service-bg{background-color: #fbfbfb;padding:10px 5px;}
+.service-bg>.btn{
+    position: relative;
+}
+.add-register .row.row-inner{
+    margin: 0;
+}
+.add-register .row.row-inner>.col{
+    padding: 0;
+}
+.add-register .row.row-inner>label.col{
+    line-height: 34px;
+    padding-right: 5px;
+}
+.add-register .btn-area-wrapper{
+    padding-right: 30px;
+}
+.add-register .btn-area-wrapper .btn-add-file{
+    margin: 0;
+}
