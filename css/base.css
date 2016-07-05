@@ -73,9 +73,9 @@ p.keyword{
     font-weight: bold;
     font-size: 24px;
     padding-top: 60px;
-    -webkit-animation: bling 1s infinite ease-in;
-    -o-animation: bling 1s infinite ease-in;
-    animation: bling 1s infinite ease-in;
+    -webkit-animation: bling 2s infinite ease-in;
+    -o-animation: bling 2s infinite ease-in;
+    animation: bling 2s infinite ease-in;
 }
 p.keyword i.dot{
     display: inline-block;
@@ -88,7 +88,7 @@ p.keyword i.dot{
 @keyframes bling{
     0% {
         /*text-shadow:5px 0px 30px rgb(16,148,246);*/
-        opacity: 0.5;
+        opacity: 0.3;
     }
     50% {
         /*text-shadow:5px 0px 60px rgb(16,148,246);*/
