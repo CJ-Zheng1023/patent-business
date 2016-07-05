@@ -105,6 +105,7 @@ p.keyword i.dot{
 /**郑成杰**/
 a, a:hover {outline: none;text-decoration: none;}
 a:focus{outline: none;text-decoration: none;}
+*{font-family: "Microsoft YaHei";}
 
 /**logo区域 **/
 .logo.logo-md{
