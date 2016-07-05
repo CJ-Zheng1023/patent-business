@@ -1,9 +1,11 @@
 @charset "UTF-8";
 .navbar-brand{color:#ffb74d;font-size: 29px;}
 .navbar-brand:hover{color:#ffb74d;}
+.about-logo p.keyword{color: #1b94e3;}
+.about-logo p.keyword i.dot{ background-color: #1b94e3;}
 p.keyword{
     text-align: center;
-    color: #1b94e3;
+
     font-weight: bold;
     font-size: 36px;
 }
@@ -11,7 +13,7 @@ p.keyword i.dot{
     display: inline-block;
     width: 8px;
     height: 8px;
-    background-color: #1b94e3;
+
     border-radius: 50%;
     margin: 0 23px 3px 23px;
 }

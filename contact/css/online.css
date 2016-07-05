@@ -20,5 +20,5 @@ background-image: linear-gradient(to right,rgba(210,211,211,.6),rgba(243,247,250
 
 .line-box{width:172px;height:172px;padding:5px;margin: 0 auto;}
 
-p.keyword{padding-top:33px;margin-bottom:60px;color:#2e2e2e;}
-p.keyword i.dot{background-color:#2e2e2e;}
+.online-bg p.keyword{padding-top:33px;margin-bottom:60px;color:#2e2e2e;}
+.online-bg p.keyword i.dot{background-color:#2e2e2e;}
