@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../../css/font-awesome.css" type="text/css"/>
     <link rel="stylesheet" href="../../css/base.css" type="text/css"/>
     <link rel="stylesheet" href="../common/css/service-common.css"/>
-    <link rel="stylesheet" href="css/litigation.css"/>
+    <link rel="stylesheet" href="css/evidence.css"/>
     <!--[if lt IE 9]>
     <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
@@ -151,7 +151,7 @@
                             </a>
                         </li>
                         <li>
-                            <a class="menu-item active" href="javascript:;">
+                            <a class="menu-item" href="javascript:;">
                                 <i class="iconfont icon-yixuanzhongpaimaichui personal-icon"></i>
                                 <div class="menu-item-title">
                                     <h2>我要诉讼</h2>
@@ -160,7 +160,7 @@
                             </a>
                         </li>
                         <li>
-                            <a class="menu-item" href="javascript:;">
+                            <a class="menu-item active" href="javascript:;">
                                 <i class="iconfont icon-shenfenyanzheng personal-icon"></i>
                                 <div class="menu-item-title">
                                     <h2>证据保全</h2>
@@ -175,42 +175,12 @@
                 <div class="menu-content">
                     <div class="content-box">
                         <form>
-                            <div class="row add-litigation add-litigation-responsive">
+                            <div class="row add-evidence add-evidence-responsive">
                                 <div class="col-sm-12 col-xs-12">
-                                    <div class="form-group">
-                                        <label class="control-label" for="agent">代理人</label>
-                                        <input type="text" class="form-control" id="agent">
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="control-label">事务所简介</label>
-                                        <textarea class="form-control" rows="6"></textarea>
-                                    </div>
-                                    <div class="form-group">
-                                        <label class="control-label">联系人</label>
-                                        <div class="input-box">
-                                            <div class="row row-inner">
-                                                <div class="col-sm-2 col-xs-12 col">
-                                                    <label class="control-label" for="real_name">真实姓名</label>
-                                                </div>
-                                                <div class="col-sm-4 col-xs-12 col">
-                                                    <input type="text" class="form-control" id="real_name">
-                                                </div>
-                                                <div class="col-sm-2 col-xs-12 col">
-                                                    <label class="control-label" for="tel-phone">联系电话</label>
-                                                </div>
-                                                <div class="col-sm-4 col-xs-12 col">
-                                                    <input type="tel" class="form-control" id="tel-phone">
-                                                    <p class="input-tip">建议填写手机，如果是固话请输入区号</p>
-                                                </div>
-                                            </div>
-                                            <div class="btn-area right">
-                                                <a href="javascript:;" class="btn btn-default btn-add-file" role="button">添加联系人</a>
-                                            </div>
-
-                                        </div>
-                                    </div>
-                                    <div class="btn-area center">
-                                        <a href="javascript:;" role="button" class="btn btn-default btn-submit">提 交</a>
+                                    <div class="form-group input-number-area">
+                                        <label class="control-label" for="input_number">输入投诉号</label>
+                                        <input type="text" class="form-control" id="input_number">
+                                        <button type="submit" class="btn btn-default btn-submit" role="button">提交</button>
                                     </div>
                                 </div>
                             </div>
