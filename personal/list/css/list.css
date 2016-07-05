@@ -7,19 +7,25 @@
 
 }
 .menu-content .table-container .status-bar{
-    margin: 0;
-    width: 140px;
+    margin: 0 auto;
+    width: 100%;
     position: absolute;
-    left: 0;
-    top: 10px;
+    left: 50%;
+    max-width: 230px;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    top: 13px;
 }
 .menu-content .table-container table th{
     padding-top: 25px;
     padding-bottom: 25px;
     font-size: 20px;
     text-align: center;
-    background-color: rgb(16,148,246);
-    color: #fff;
+    background-color: rgb(245,245,245);
+    color: rgb(63,63,63);
 }
 .menu-content .table-container table td{
     padding-top: 15px;
@@ -28,9 +34,10 @@
     font-size: 15px;
     text-align: center;
     line-height: 30px;
+    vertical-align: middle;
 }
 .menu-content .table-container table td>.status{
-    padding-left: 155px;
+    padding-top: 45px;
     position: relative;
     color: #000;
     font-size: 14px;
@@ -39,8 +46,8 @@
     color: #a4a4a4;
 }
 .menu-content .table-container .status-bar .status-item{
-    height: 30px;
-    width: 30px;
+    height: 36px;
+    width: 36px;
     font-size: 12.62px;
-    line-height: 30px;
+    line-height: 36px;
 }
