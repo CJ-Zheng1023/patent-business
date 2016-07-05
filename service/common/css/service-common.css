@@ -1,9 +1,66 @@
 @charset "UTF-8";
 .content-box{padding:30px;}
-.identity-img{font-size: 100px;}
-.service-title {color:#737272;font-size: 16px;}
-.file{position:absolute;opacity: 0;width:100%;height:100%;z-index: 22;}
+.file{position:absolute;opacity: 0;width:100%;height:100%;z-index: 22;top: 0;left: 0;}
 
-.identity-front,.identity-reverse{}
 
-.service-bg{background-color: #fbfbfb;padding:10px 5px;}
+
+
+
+.form-group .input-box{
+    padding: 10px 10px 15px 10px;
+    background-color: rgb(251,251,251);
+
+}
+.form-group .input-box .input-area{
+    position: relative;
+}
+.form-group .input-box .input-area input[type='text']{
+    padding-right: 85px;
+}
+.input-box .input-area .btn.btn-upload{
+    background-color: rgb(101,170,229);
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    width: 85px;
+    text-align: center;
+    padding: 0;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    font-size: 12px;
+}
+ .btn-area{
+    margin: 10px 0;
+}
+.btn-area.right{
+    text-align: right;
+}
+.btn-area.center{
+    text-align: center;
+}
+.btn.btn-add-file{
+    font-size: 12px;
+    background-color: rgb(130,186,96);
+    padding: 0;
+    width: 85px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    margin-right: 2px;
+}
+.btn.btn-reset{
+    color: #fff;
+    font-size: 18px;
+    background-color: rgb(255,183,77);
+    padding: 10px 25px;
+    margin: 0 8px;
+}
+.btn.btn-submit{
+    color: #fff;
+    font-size: 18px;
+    background-color: rgb(16,148,246);
+    padding: 10px 25px;
+    margin: 0 8px;
+}

@@ -1,0 +1,10 @@
+.add-register .form-control-feedback{
+    font-size: 20px;
+    line-height: 34px;
+    color: #2289c4;
+}
+.add-register .control-label{
+    color: #2289c4;
+    font-size: 16px;
+}
+

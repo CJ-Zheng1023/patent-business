@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../../css/font-awesome.css" type="text/css"/>
     <link rel="stylesheet" href="../../css/base.css" type="text/css"/>
     <link rel="stylesheet" href="../common/css/service-common.css"/>
-    <link rel="stylesheet" href="css/complaint.css"/>
+    <link rel="stylesheet" href="css/register.css"/>
     <!--[if lt IE 9]>
     <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
     <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
@@ -124,7 +124,7 @@
                 <div class="personal-menu">
                     <ul>
                         <li>
-                            <a class="menu-item" href="javascript:;">
+                            <a class="menu-item active" href="javascript:;">
                                 <i class="fa fa-pencil personal-icon"></i>
                                 <div class="menu-item-title">
                                     <h2>我要登记</h2>
@@ -133,7 +133,7 @@
                             </a>
                         </li>
                         <li>
-                            <a class="menu-item active" href="javascript:;">
+                            <a class="menu-item" href="javascript:;">
                                 <i class="iconfont icon-email personal-icon"></i>
                                 <div class="menu-item-title">
                                     <h2>我要投诉</h2>
@@ -174,71 +174,92 @@
             <div class="col-md-8 col-sm-12">
                 <div class="menu-content">
                     <div class="content-box">
-                        <form>
-                            <div class="row add-register add-register-responsive">
-                                <div class="col-sm-6 col-xs-12">
-                                    <div class="form-group">
-                                        <label class="control-label" for="case_title">侵权事件</label>
-                                        <input type="text" class="form-control" id="case_title">
-                                    </div>
+                        <form class="form-horizontal">
+                            <div class="form-group">
+                                <label  class="col-sm-3 control-label service-title">权利人姓名</label>
+                                <div class="col-sm-9">
+                                    <input type="text" class="form-control"  placeholder="请输入姓名">
                                 </div>
-                                <div class="col-sm-6 col-xs-12">
-                                    <div class="form-group has-feedback">
-                                        <label class="control-label" for="case_location">侵权地域</label>
-                                        <input type="text" class="form-control" id="case_location">
-                                        <span class="fa fa-map-marker form-control-feedback" aria-hidden="true"></span>
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-xs-12">
-                                    <div class="form-group has-feedback">
-                                        <label class="control-label" for="certificate">选择已登记的知识产权证明</label>
-                                        <input type="text" class="form-control" id="certificate">
-                                        <span class="fa fa-file-text-o form-control-feedback" aria-hidden="true"></span>
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-xs-12">
-                                    <div class="form-group">
-                                        <label class="control-label" for="right-file">上传权利文件</label>
-                                        <div class="input-box">
-                                            <div class="input-area">
-                                                <input type="text" class="form-control" id="right-file">
-                                                <a role="button" href="javascript:;" class="btn btn-default btn-upload">上传文件<input type="file" class="file" /></a>
+                            </div>
+                            <div class="form-group">
+                                <label  class="col-sm-3 control-label service-title">身份证照片</label>
+                                <div class="col-sm-9">
+                                    <div class="col-md-6">
+                                        <div class="identity-front text-center service-bg">
+                                            <h6>身份证正面</h6>
+                                            <div class="identity-img ">
+                                                <img src="images/identity.png" alt=""/>
                                             </div>
-                                            <div class="btn-area right">
-                                                <a href="javascript:;" class="btn btn-default btn-add-file" role="button">添加文件</a>
-                                            </div>
+                                            <button class="btn btn-primary">点击上传</button>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="col-sm-12 col-xs-12">
-                                    <div class="form-group">
-                                        <label class="control-label">诉求</label>
-                                        <textarea class="form-control" rows="4"></textarea>
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-xs-12">
-                                    <div class="form-group">
-                                        <label class="control-label" for="link-file">侵权链接</label>
-                                        <div class="input-box">
-                                            <div class="input-area">
-                                                <input type="text" class="form-control" id="link-file">
-                                                <a role="button" href="javascript:;" class="btn btn-default btn-upload">上传文件<input type="file" class="file" /></a>
+                                    <div class="col-md-6">
+                                        <div class="identity-reverse text-center service-bg">
+                                            <h6>身份证正面</h6>
+                                            <div class="identity-img ">
+                                                <img src="images/identity.png" alt=""/>
                                             </div>
-                                            <div class="btn-area right">
-                                                <a href="javascript:;" class="btn btn-default btn-add-file" role="button">添加文件</a>
-                                            </div>
+                                            <button class="btn btn-primary">点击上传</button>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 col-xs-12">
-                                    <div class="btn-area center">
-                                        <a href="javascript:;" class="btn btn-default btn-reset">重 置</a>
-                                        <a href="javascript:;" class="btn btn-default btn-submit">提 交</a>
                                     </div>
                                 </div>
                             </div>
+                            <div class="clearfix">
+                                <div class="form-group">
+                                    <label  class="col-sm-3 control-label service-title">营业执照图片</label>
+                                    <div class="col-sm-9">
+                                        <div class="service-bg">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" placeholder="Recipient's username" aria-describedby="basic-addon2">
+                                                <span class="input-group-btn"><input class="file" style="" type="file"/> <button class="btn btn-default" type="button">Go!</button>  </span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label  class="col-sm-3 control-label service-title">营业执照图片</label>
+                                    <div class="col-sm-9">
+                                        <div class="service-bg">
+                                            <div class="input-group">
+                                                <input type="text" class="form-control" placeholder="Recipient's username" aria-describedby="basic-addon2">
+                                                <span class="input-group-btn"><input class="file" style="" type="file"/> <button class="btn btn-default" type="button">Go!</button>  </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="add-button pull-right ">
+                                    <button class="btn btn-success">添加文件</button>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label  class="col-sm-3 control-label service-title">商标证</label>
+                                <div class="col-sm-9">
+                                    <div class="service-bg clearfix">
+                                        <div class="col-md-6">
+                                            <label  class="col-sm-4 control-label">授权号</label>
+                                            <div class="col-sm-8">
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control" placeholder="Recipient's username" aria-describedby="basic-addon2">
+                                                    <span class="input-group-btn"><input class="file" style="" type="file"/> <button class="btn btn-default" type="button">Go!</button>  </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label  class="col-sm-4 control-label">扫描件</label>
+                                            <div class="col-sm-8">
+                                                <div class="input-group">
+                                                    <input type="text" class="form-control" placeholder="Recipient's username" aria-describedby="basic-addon2">
+                                                    <span class="input-group-btn"><input class="file" style="" type="file"/> <button class="btn btn-default" type="button">Go!</button>  </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
                         </form>
-                    </div>
                     </div>
                 </div>
             </div>
