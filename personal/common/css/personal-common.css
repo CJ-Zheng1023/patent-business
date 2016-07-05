@@ -75,6 +75,21 @@
     margin: 30px auto 0 auto;
     position: relative;
 }
+.menu-content .status-bar.status1 span:nth-of-type(-n+1){
+    background-color: rgb(103,51,188);
+}
+.menu-content .status-bar.status2 span:nth-of-type(-n+2){
+    background-color: rgb(16,148,246);
+}
+.menu-content .status-bar.status2 div:nth-of-type(-n+1){
+    background-color: rgb(16,148,246);
+}
+.menu-content .status-bar.status3 span:nth-of-type(-n+3){
+    background-color: rgb(71,175,76);
+}
+.menu-content .status-bar.status3 div:nth-of-type(-n+2){
+    background-color: rgb(71,175,76);
+}
 .menu-content .status-bar>.status-item{
     width: 66px;
     height: 66px;
@@ -108,9 +123,9 @@
 .menu-content .status-bar>.bar-part2{
     right: 0;
 }
-.menu-content .status-bar>.status-item.active{
+/*.menu-content .status-bar>.status-item.active{
     background-color: rgb(16,148,246);
-}
+}*/
 .menu-content .status-bar>.status-item1{
     left: 0;
 }
@@ -125,9 +140,9 @@
 .menu-content .status-bar>.status-item3{
     right: 0;
 }
-.menu-content .status-bar>.status-item1.active+.bar-part{
+/*.menu-content .status-bar>.status-item1.active+.bar-part{
     background-color: rgb(16,148,246);
 }
 .menu-content .status-bar>.status-item2.active+.bar-part{
     background-color: rgb(16,148,246);
-}
+}*/
