@@ -73,9 +73,9 @@ p.keyword{
     font-weight: bold;
     font-size: 24px;
     padding-top: 60px;
-    -webkit-animation: bling 3s infinite ease-in;
-    -o-animation: bling 3s infinite ease-in;
-    animation: bling 3s infinite ease-in;
+    -webkit-animation: bling 1s infinite ease-in;
+    -o-animation: bling 1s infinite ease-in;
+    animation: bling 1s infinite ease-in;
 }
 p.keyword i.dot{
     display: inline-block;
@@ -92,7 +92,7 @@ p.keyword i.dot{
     }
     50% {
         /*text-shadow:5px 0px 60px rgb(16,148,246);*/
-        opacity: 1;
+        opacity: 01;
     }
     100% {
         /*text-shadow:5px 0px 30px rgb(16,148,246);*/
@@ -123,7 +123,7 @@ a:focus{outline: none;text-decoration: none;}
     text-align: center;
 }
 .logo-sm>h2{
-    font-size: 22.33px;
+    font-size: 18px;
 }
 .logo>h3{
     font-size: 12px;
@@ -263,7 +263,7 @@ a:focus{outline: none;text-decoration: none;}
 }
 .header .jumbotron .navbar-home .nav-home{
     float: right;
-    height: 150px;
+    height: 155px;
 }
 .header .navbar-home .nav-home .nav-btn-home{
     display: none;
@@ -283,6 +283,7 @@ a:focus{outline: none;text-decoration: none;}
         top: 63px;
         background-color: #fff;
         width: 100%;
+        z-index: 10;
     }
     .header .navbar-home .nav-home ul.collapse-menu-home.active{
         display: block;
@@ -382,15 +383,24 @@ a:focus{outline: none;text-decoration: none;}
 }
 .header .jumbotron .navbar-home .qrcode{
     float: right;
-    padding: 18px 15px 7px 15px;
+    padding: 10px 15px 5px 15px;
     cursor: pointer;
     position: relative;
     border-radius: 4px;
-}
-.header .navbar-home .qrcode.active{
     background-color: rgba(6,107,179,0.5);
 }
-.header .navbar-home .qrcode span.caret{
+.header .jumbotron .navbar-home .qrcode .login-area{
+    text-align: center;
+}
+.header  .navbar-home .qrcode .login-area>a{
+    font-size: 12.32px;
+    color: #fff;
+    margin: 0 10px;
+}
+/*.header .navbar-home .qrcode.active{
+    background-color: rgba(6,107,179,0.5);
+}*/
+/*.header .navbar-home .qrcode span.caret{
     position: absolute;
     bottom: 3px;
     left: 50%;
@@ -407,17 +417,17 @@ a:focus{outline: none;text-decoration: none;}
     -ms-transform: rotate(180deg);
     -o-transform: rotate(180deg);
     transform: rotate(180deg);
-}
+}*/
 .header .navbar-home .qrcode .qrcode-img{
     margin: 7px auto;
-    display: none;
+    /*display: none;*/
     background-image: url("../images/qrcode.png");
     width: 74px;
     height: 74px;
 }
-.header .navbar-home .qrcode.active .qrcode-img{
+/*.header .navbar-home .qrcode.active .qrcode-img{
     display: block;
-}
+}*/
 .header .jumbotron .title-box{
     max-width: 750px;
     margin: 0 auto;
