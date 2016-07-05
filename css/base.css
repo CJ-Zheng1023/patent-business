@@ -73,6 +73,9 @@ p.keyword{
     font-weight: bold;
     font-size: 24px;
     padding-top: 60px;
+    -webkit-animation: bling 3s infinite ease-in;
+    -o-animation: bling 3s infinite ease-in;
+    animation: bling 3s infinite ease-in;
 }
 p.keyword i.dot{
     display: inline-block;
@@ -81,6 +84,20 @@ p.keyword i.dot{
     background-color: #fff;
     border-radius: 50%;
     margin: 0 23px 3px 23px;
+}
+@keyframes bling{
+    0% {
+        /*text-shadow:5px 0px 30px rgb(16,148,246);*/
+        opacity: 0.5;
+    }
+    50% {
+        /*text-shadow:5px 0px 60px rgb(16,148,246);*/
+        opacity: 1;
+    }
+    100% {
+        /*text-shadow:5px 0px 30px rgb(16,148,246);*/
+        opacity: 0.5;
+    }
 }
 /**田会飞end**/
 
