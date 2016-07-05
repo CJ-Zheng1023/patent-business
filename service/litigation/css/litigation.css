@@ -1,0 +1,26 @@
+.add-litigation .control-label{
+    color: #2289c4;
+    font-size: 16px;
+}
+.add-litigation .row.row-inner>.col{
+    padding: 0 10px;
+}
+.add-litigation .row.row-inner label{
+    font-size: 14px;
+    color: #737272;
+    text-align: right;
+    display: block;
+    margin: 0;
+    line-height: 34px;
+    font-weight: normal;
+}
+.add-litigation .row.row-inner .input-tip{
+    color: #a9a9a9;
+    font-size: 12px;
+    margin-top: 7px;
+}
+@media (max-width: 768px) {
+    .add-litigation.add-litigation-responsive .row.row-inner label{
+        text-align: left;
+    }
+}
