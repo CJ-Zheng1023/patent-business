@@ -1,0 +1,54 @@
+.container-case-list .caption h3{
+    color: rgb(102,102,102);
+    font-size: 18px;
+    line-height: 24px;
+}
+.container-case-list .caption h3>strong{
+    background-color: rgb(0,160,233);
+    color: #fff;
+    padding: 2px 3px;
+    border-radius: 3px;
+    margin-right: 2px;
+}
+.container-case-list .thumbnail{
+    cursor: pointer;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    transform: translateY(0);
+}
+.container-case-list .thumbnail:hover{
+    -webkit-transform: translateY(-2%);
+    -moz-transform: translateY(-2%);
+    -ms-transform: translateY(-2%);
+    -o-transform: translateY(-2%);
+    transform: translateY(-2%);
+    box-shadow: 0px 0px 25px 5px rgb(230,230,230);
+}
+.container-case-list .caption p{
+    color: rgb(143,143,143);
+    font-size: 15px;
+    text-indent: 30px;
+    /*position:relative;*/
+    /*line-height:20px;
+    *//* 3 times the line-height to show 3 lines *//*
+    height:40px;
+    overflow:hidden;
+    padding-right: 20px;*/
+}
+/*
+.container-case-list .caption p>.dotdotdot{
+    position:absolute;
+    bottom:0;
+    right:0;
+    font-weight:bold;
+    width: 20px;
+    text-indent: 0;
+}*/
