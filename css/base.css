@@ -8,6 +8,75 @@ li{list-style-type: none;}
 .title h1{font-size:30px;font-weight:bolder ;color:#00a0e9;}
 .title small{font-size:18px;color:#222;}
 
+/****/
+.main.main-personal{
+    padding: 30px 0;
+    background-color: rgb(245,245,245);
+}
+.menu-content ul{
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+.personal-menu ul li{
+    margin: 0 0 10px 0;
+}
+.personal-menu ul li .menu-item{
+    display: block;
+    padding: 20px 30px;
+    background-color: #fff;
+}
+.personal-menu ul li .menu-item.active{
+    background-color: rgb(16,148,246);
+}
+.personal-menu .menu-item.active i.personal-icon{
+    color: #fff;
+}
+.personal-menu .menu-item.active .menu-item-title h2{
+    color: #fff;
+}
+.personal-menu .menu-item.active .menu-item-title h3{
+    color: #fff;
+}
+.personal-menu ul li .menu-item:hover{
+    background-color: rgb(16,148,246);
+}
+.personal-menu .menu-item:hover i.personal-icon{
+    color: #fff;
+}
+.personal-menu .menu-item:hover .menu-item-title h2{
+    color: #fff;
+}
+.personal-menu .menu-item:hover .menu-item-title h3{
+    color: #fff;
+}
+.personal-menu .menu-item .menu-item-title{
+    display: inline-block;
+    margin-left: 10px;
+}
+.personal-menu .menu-item i.personal-icon{
+    color: rgb(16,148,246);
+    font-size: 50px;
+    min-width: 50px;
+    display: inline-block;
+    line-height: 1;
+}
+.personal-menu .menu-item .menu-item-title h2{
+    font-size: 24.47px;
+    color: rgb(34,34,34);
+    margin: 0 0 5px 0;
+}
+.personal-menu .menu-item .menu-item-title h3{
+    font-size: 12.24px;
+    color: rgb(100,100,100);
+    margin: 0;
+}
+.menu-content{
+    background-color: #fff;
+    /*min-height: 700px;*/
+}
+/****/
+
 /**宫格 开始**/
 .grid > div{padding:0;}
 .grid .b-box{height:100%;padding:5px;border-left:1px solid #EEE;border-top:1px solid #EEE;border-right:1px solid #EEE;border-bottom:1px solid #EEE;}
@@ -494,26 +563,23 @@ a:focus{outline: none;text-decoration: none;}
 /**阿里图标字体库引入**/
 @font-face {
     font-family: 'iconfont';
-    src: url('//at.alicdn.com/t/font_1467700013_6805527.eot'); /* IE9*/
-    src: url('//at.alicdn.com/t/font_1467700013_6805527.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('//at.alicdn.com/t/font_1467700013_6805527.woff') format('woff'), /* chrome、firefox */
-    url('//at.alicdn.com/t/font_1467700013_6805527.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-    url('//at.alicdn.com/t/font_1467700013_6805527.svg#iconfont') format('svg'); /* iOS 4.1- */
+    src: url('//at.alicdn.com/t/font_1467719415_3032813.eot'); /* IE9*/
+    src: url('//at.alicdn.com/t/font_1467719415_3032813.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('//at.alicdn.com/t/font_1467719415_3032813.woff') format('woff'), /* chrome、firefox */
+    url('//at.alicdn.com/t/font_1467719415_3032813.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('//at.alicdn.com/t/font_1467719415_3032813.svg#iconfont') format('svg'); /* iOS 4.1- */
 }
-.iconfont {
-    font-family:"iconfont" !important;
-    font-size:16px;
-    font-style:normal;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-stroke-width: 0.2px;
-    -moz-osx-font-smoothing: grayscale;
-}
+
+
 .icon-zuji:before { content: "\e602"; }
 .icon-shape5:before { content: "\e601"; }
 .icon-yixuanzhongpaimaichui:before { content: "\e600"; }
 .icon-guanli:before { content: "\e603"; }
 .icon-kefurexian:before{content:"\e604";}
 .icon-phone:before{content: "\e605";}
+.icon-email:before{content: "\e606";}
+.icon-shenfenyanzheng:before{content:"\e607";}
+.icon-shenfenzheng:before{content: "\e608";}
 
 /*@font-face {font-family: "iconfont";
     src: url('../fonts/iconfont.eot?t=1467688953'); /!* IE9*!/
