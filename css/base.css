@@ -216,6 +216,10 @@ a:focus{outline: none;text-decoration: none;}
 .main .container-news .row-wrapper{
     border-bottom: 1px solid rgb(205,205,205);
     padding: 20px 0;
+    position: relative;
+}
+.main .container-news .row-wrapper .pull-left{
+    padding-right: 6%;
 }
 .main .container-news .row-wrapper p.date{
     color: #b5b5b5;
@@ -228,7 +232,7 @@ a:focus{outline: none;text-decoration: none;}
     color: rgb(122,122,122);
 }
 .main .container-news .row-wrapper .article{
-    padding-right: 150px;
+    padding-right: 8%;
     position: relative;
 }
 .main .container-news .article h2.article-title{
@@ -322,7 +326,7 @@ a:focus{outline: none;text-decoration: none;}
     margin-left: 40px;
     float: left;
 }
-@media (max-width: 1260px) {
+@media (max-width: 1290px) {
     .header .jumbotron .navbar-home .navbar-logo-wrapper{
         display: none;
     }
@@ -599,6 +603,73 @@ a:focus{outline: none;text-decoration: none;}
 .icon-guanli:before { content: "\e603"; }
 /**阿里图标字体库引入end**/
 
+
+
+
+/**bootstrap container容器样式重置**/
+.container{
+    width: auto;
+    margin: 0 auto;
+}
+@media (min-width: 768px){
+    .container{
+        padding: 0 6%;
+    }
+}
+@media (min-width: 992px){
+    .container{
+        padding: 0 6%;
+    }
+}
+@media (min-width: 1200px){
+    .container{
+        padding: 0 6%;
+    }
+}
+/**bootstrap container容器样式重置end**/
+
+/**时间抽**/
+
+
+@media (min-width: 768px) {
+    .time-bar{
+        position: absolute;
+        width: 2px;
+        background-color: rgb(181,181,181);
+        left: 30%;
+        height: 100%;
+        bottom: 0;
+    }
+    .time-bar.time-bar-first{
+        height: 50%;
+    }
+    .time-bar.time-bar-last{
+        height: 50%;
+        top: 0;
+        bottom: auto;
+    }
+    .time-bar .time-circle{
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background-color: rgb(181,181,181);
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        -o-transform: translate(-50%,-50%);
+        transform: translate(-50%,-50%);
+    }
+    .time-bar.time-bar-first .time-circle{
+        top: 0;
+    }
+    .time-bar.time-bar-last .time-circle{
+        top: 100%;
+    }
+}
+/**时间抽end**/
 
 
 
