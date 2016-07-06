@@ -11,6 +11,7 @@ p.keyword{
 }
 .about-logo p.keyword{
     font-size: 36px;
+    padding-top: 30px;
 }
 p.keyword i.dot{
     display: inline-block;
@@ -24,8 +25,8 @@ p.keyword i.dot{
 .title{padding-top:10px;height:75px;background:url("../images/about.png") no-repeat 20% center;}
 .title h1 {margin-top:0;}
 .title h1,.title small {color:#47b04b;}*/
-.about-title{margin-bottom:53px;}
-.about-logo .logo.logo-md{float:right;width:50%;padding-left:71px;background:url("../../images/about.png") no-repeat 0 0;}
+.about-title{}
+.about-logo .logo.logo-md{margin: 0 auto;width:50%;padding-left:71px;background:url("../../images/about.png") no-repeat 0 0;}
 .about-logo .logo>h3{color:#47b04b;font-size:21px;}
 .about-logo .logo>h2{color:#47b04b;font-size:58px;}
 
