@@ -1,6 +1,87 @@
 @charset "UTF-8";
-.detail-box{max-width: 1000px;margin:0 auto;margin-bottom:118px;padding:55px 76px;min-height:425px;border:1px solid #d2d2d2;}
+.problem-detail{max-width: 1000px;margin:0 auto;margin-bottom:118px;padding:45px 30px;min-height:425px;border:1px solid #d2d2d2;}
+.problem-detail .chat-box{
+    padding: 0 110px;
+    margin: 10px 0;
+    min-height: 80px;
+    position: relative;
+    overflow: hidden;
+}
+.problem-detail .chat-box .photo{
+    width: 77px;
+    top: 0;
+    position: absolute;
+}
+.problem-detail .chat-box.question-box .photo{
+    right: 0;
+}
+.problem-detail .chat-box.answer-box .photo{
+    left: 0;
+}
+.problem-detail .chat-box .chat-content{
+    padding: 25px;
+    font-size: 19px;
+    display: inline-block;
+    border-radius: 4px;
+}
+.problem-detail .chat-box .chat-content>p{
+    font-size: 18px;
+}
+.problem-detail .chat-box.question-box .chat-content{
+    background-color: rgb(238,238,238);
+    color: #2c2c2c;
+    float: right;
+}
+.problem-detail .chat-box.answer-box .chat-content{
+    background-color: rgb(0,160,233);
+    color: #fff;
+    float: left;
+}
+.problem-detail .chat-box>i{
+    position: absolute;
+    top: 25px;
+
+}
+.problem-detail .chat-box>i.question-arrow{
+    background-image: url("../images/question-arrow.png");
+    right: 110px;
+    margin-right: -18px;
+    width: 18px;
+    height: 15px;
+}
+.problem-detail .chat-box>i.answer-arrow{
+    background-image: url("../images/answer-arrow.png");
+    left: 110px;
+    margin-left: -25px;
+    width: 25px;
+    height: 28px;
+}
 @media screen and (max-width: 768px){
-    .detail-box{padding:55px 5px;}
+    .problem-detail{padding:45px 5px;}
+    .problem-detail .chat-box .photo{
+        width: 30px;
+    }
+    .problem-detail .chat-box{
+        padding: 0 50px;
+        min-height: 30px;
+    }
+    .problem-detail .chat-box .chat-content{
+        padding: 10px;
+        font-size: 14px;
+    }
+    .problem-detail .chat-box .chat-content>p{
+        font-size: 13px;
+    }
+    .problem-detail .chat-box>i{
+        top: 12px;
+    }
+    .problem-detail .chat-box>i.question-arrow{
+        right: 50px;
+        margin-right: -13px;
+    }
+    .problem-detail .chat-box>i.answer-arrow{
+        left: 50px;
+        margin-left: -19px;
+    }
 }
 

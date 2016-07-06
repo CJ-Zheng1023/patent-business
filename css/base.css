@@ -672,4 +672,16 @@ a:focus{outline: none;text-decoration: none;}
 /**时间抽end**/
 
 
+/**error-img错误页面样式**/
+.container-error{
+    background-color: rgb(231,231,231);
+}
+.container-error .error-img{
+    margin: 50px auto;
+    max-width: 900px;
+}
+
+/**error-img错误页面样式end**/
+
+
 

@@ -4,18 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../css/bootstrap.css"/>
-    <link rel="stylesheet" href="../css/font-awesome.css"/>
-    <link rel="stylesheet" href="../css/base.css"/>
-    <link rel="stylesheet" href="css/problem.css"/>
-
-    <title>常见问题</title>
-    <!--[if lt IE 9]>
-    <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <title>404错误页面</title>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
+    <link rel="stylesheet" href="css/font-awesome.css" type="text/css"/>
+    <link rel="stylesheet" href="css/base.css" type="text/css"/>
 </head>
 <body>
+
 <!-- header -->
 <div class="header">
     <div class="jumbotron">
@@ -35,7 +30,7 @@
                 </button>
                 <ul class="collapse-menu-home">
                     <li>
-                        <a href="javascript:;" class="list-item ">
+                        <a href="javascript:;" class="list-item active">
                             <h3>首页</h3>
                             <h4>HOME</h4>
                             <i></i>
@@ -77,7 +72,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="javascript:;" class="list-item active">
+                        <a href="javascript:;" class="list-item">
                             <h3>常见问题</h3>
                             <h4>PROBLEM</h4>
                             <i></i>
@@ -118,44 +113,11 @@
 </div>
 <!-- /header -->
 
-
 <!-- main -->
 <div class="main">
-    <div class="container">
-        <ol class="breadcrumb">
-            <li><a href="javascript:void(0)">首页</a></li>
-            <li><a href="javascript:void(0);">常见问题</a></li>
-            <li class="active">平台如何使用</li>
-        </ol>
-        <div class="container-fluid title">
-            <h1>常见问题</h1>
-            <small>COMMON PROBLEM</small>
-        </div>
-        <div class="problem-detail">
-            <div class="chat-box question-box">
-                <div class="photo">
-                    <img src="images/user-head-photo.png" width="100%" />
-                </div>
-                <div class="chat-content">
-                    平台使用的流程是什么？
-                </div>
-                <i class="question-arrow"></i>
-            </div>
-            <div class="chat-box answer-box">
-                <div class="photo">
-                    <img src="images/admin-head-photo.png" width="100%" />
-                </div>
-                <div class="chat-content">
-                    <p>(1) 请将您的输入法调整为半角状态。 （以免输入了全角字符）</p>
-                    <p>(2) 确认是否正确输入验证码。（注意英文字母的大小写是否正确）</p>
-                    <p>(3) 清除浏览器缓存，操作方法如下：打开浏览器，选择Internet选项，将历史记录清除，然后重新找开注册页面进行注册。</p>
-                    <p>(4)关闭全部浏览器，尝试开启尝试注册，或者更换浏览器试一下</p>
-                </div>
-                <i class="answer-arrow"></i>
-            </div>
-
-
-
+    <div class="container container-error">
+        <div class="error-img">
+            <img src="images/404.png" width="100%" />
         </div>
     </div>
 </div>
@@ -193,9 +155,10 @@
     </div>
 </div>
 <!-- /footer -->
+<script src="js/jquery-1.12.3.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/header.js"></script>
 
-<script src="../js/jquery-1.12.3.js"></script>
-<script src="../js/bootstrap.js"></script>
-<script src="../js/header.js"></script>
+
 </body>
 </html>
