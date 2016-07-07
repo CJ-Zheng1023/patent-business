@@ -680,6 +680,9 @@ a:focus{outline: none;text-decoration: none;}
     margin: 50px auto;
     max-width: 900px;
 }
+.container-error500{
+    background-color: rgb(251,251,251);
+}
 
 /**error-img错误页面样式end**/
 
